@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Score Keeper</title>
+</head>
+
+<body>
+  <section id="card">
+    <img src="/resources/steven-skerritt-vljZeX-WdQs-unsplash.jpg" alt="table-tennis-picture">
+    <div id="title">Table Tennis Score Keeper</div>
+    <h1 id="display"><span id="span-1">0</span> to <span id="span-2">0</span></h1>
+    <div id="selector-div">
+      <p>Please set the maximal score of the match!</p>
+      <label for="max-score">Play to</label>
+      <select name="max-score" id="max-score-select">
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+      </select>
+    </div>
+    <footer>
+      <button id="p1-plus">Player 1</button>
+      <button id="p2-plus">Player 2</button>
+      <button id="reset-btn">Reset</button>
+    </footer>
+  </section>
+  
+  <script src="app.js"></script>
+
+</body>
+
+</html>
